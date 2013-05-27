@@ -27,14 +27,14 @@ public class OwnershipAnalysis extends AbstractAnalysis {
 	// are considered as major contributors
 	private final double THRESHOLD = 0.05;
 	
-	private final String BUGTRACKER_MAP = "/home/elyas/labri/res/bugtracker_mapping.txt";
+	private final String BUGTRACKER_MAP = "/res/bugtracker_mapping.txt";
 	private final String[] bugtrackers = {
-			"/home/elyas/labri/res/bugzilla/wine/08-09_08-10.xml",
-			"/home/elyas/labri/res/bugzilla/wine/08-10_08-11.xml",
-			"/home/elyas/labri/res/bugzilla/wine/08-11_08-12.xml",
-			"/home/elyas/labri/res/bugzilla/wine/08-12_10-12.xml",
-			"/home/elyas/labri/res/bugzilla/wine/10-12_12-12.xml",
-			"/home/elyas/labri/res/bugzilla/wine/01-13_05-13.xml"};
+			"/res/bugzilla/wine/08-09_08-10.xml",
+			"/res/bugzilla/wine/08-10_08-11.xml",
+			"/res/bugzilla/wine/08-11_08-12.xml",
+			"/res/bugzilla/wine/08-12_10-12.xml",
+			"/res/bugzilla/wine/10-12_12-12.xml",
+			"/res/bugzilla/wine/01-13_05-13.xml"};
 
 	private ArrayList<Component> components;
 	private HashMap<Component, List<Item>> componentSource;
