@@ -1,4 +1,4 @@
-# harmony.ownership
+# harmony-ownership
 
 Harmony is the next generation tool to reverse-engineer the information contained in the software version control systems. It is an extensible framework allowing you to gather the information you need to perform advanced studies against the history of software projects.   
 The Harmony Project is hosted on Google Code at the following address: https://code.google.com/p/harmony/
